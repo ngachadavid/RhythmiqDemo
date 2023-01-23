@@ -5,13 +5,7 @@ function Item({ name, category }) {
   const cartState = addToCart? "": "in-cart"
   const cartName = addToCart? "Add to Cart": "Remove From Cart"
 
-  function changeCart(){
-    if (addToCart===true){
-      setAddToCart(false)
-    } else{
-      setAddToCart(true)
-    }
-  }
+
   return (
     <li className={cartState}>
       <span>{name}</span>
