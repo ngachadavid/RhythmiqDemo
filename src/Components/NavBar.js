@@ -8,11 +8,5 @@ function Item({ name, category }) {
   }
   return (
     <li className={cartState}>
-      <span>{name}</span>
-      <span className="category">{category}</span>
-      <button className="add" onClick={changeCart}>{cartName}</button>
-    </li>
-  );
-
-
+      <span>{name}</spa
 export default Item;
