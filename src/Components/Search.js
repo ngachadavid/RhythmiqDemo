@@ -1,3 +1,5 @@
+Njiru
+w
 import React from 'react'
 
 const Search = () => {
@@ -7,3 +9,4 @@ const Search = () => {
 }
 
 export default Search
+ main
