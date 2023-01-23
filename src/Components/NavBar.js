@@ -5,12 +5,6 @@ function Item({ name, category }) {
   const cartState = addToCart? "": "in-cart"
   const cartName = addToCart? "Add to Cart": "Remove From Cart"
 
-  function changeCart(){
-    if (addToCart===true){
-      setAddToCart(false)
-    } else{
-      setAddToCart(true)
-    }
   }
   return (
     <li className={cartState}>
@@ -19,6 +13,6 @@ function Item({ name, category }) {
       <button className="add" onClick={changeCart}>{cartName}</button>
     </li>
   );
-}
+
 
 export default Item;
